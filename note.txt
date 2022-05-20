@@ -1,0 +1,292 @@
+SD01633709 - Ticket number - remote share drive access issue
+
+
+AMC1:  Ac1#139108
++/-1.5 dB in TX CW level accuracy
+	-110 to 7dBm, 380MHz to 4GHz, in Tx FE split mode
+	-110 to 5dBm, 4 to 6GHz, in Tx FE split mode 
+	-110 to -3dBm up to 6GHz, in Tx FE combination mode
+ +/-1.5 dB in RX CW level accuracy
+	-60 to +30dBm, 380MHz to 3GHz
+ +/-2dB in RX CW level accuracy
+	-60 to +30dBm, 3GHz to 6GHz
+}{P+_)(*}{POL:|?><[}KJH+_)(**&&^
+
+\\lapis.srs.is.keysight.com\CalSoft\SuppRnd\E7515B\installer_2028
+
+https://jarvis.is.keysight.com/main/dashboard
+
+
+http://sharedoc.collaboration.is.keysight.com/sites/MCD_MBO_EXP1/SD/Platform%20Software%20USP/Master%20Registry/MasterRegistry.xlsm
+
+
+=IF(AND((VALUE(M11)=0),OR(G11<380,G11>2900)),1,0)+IF(AND((VALUE(M11)=1),OR(G11<2900,G11>4200)),1,0)+IF(AND((VALUE(M11)=2),OR(G11<4200,G11>4500)),1,0)+IF(AND((VALUE(M11)=3),OR(G11<4500,G11>
+
+Jira: SD01602026  
+HARBERTSON,AARON (K-UnitedKingdom,ex1) <aaron.harbertson@keysight.com>
+
+
+http://jabsrv2.jab.png.bp.keysight.com/cgi-bin/org/ofauto/logviewer.pl?prod_line=SAD_JABIL&Hostname=gdrxrf01&Filename=/var/opt/gos/pub/LOGFILES//E7770A/MY58290107/gdrxrf01.20180827113512
+
+AI:
+Who to contact for new projects support in AMC?
+Who to contact to understand the mfg cost?
+Put all plans together
+
+
+		...
+
+ 
+PA_Cal_check	V1	proc3		   
+DAC_Alignment	V1	proc6		   
+Tx/Rx_Alignment	V1	proc4		   
+Tx calibration	V1	proc6x		   
+Rx calibration	org	proc5x		   
+Calibration Generation	V1	proc5		   
+Multi Tx flatness	multi v1 1x	76568	35m	   
+Multi Rx flatness	multi v1 1x	40537	13	   
+Multi Rx CW	cwverify 1x	19949	27	   
+Tx reference	cwverify 1x	5156	25	   
+Tx Fast	fastverify 4x	26268	60	 
+
+
+	- new switch, understand HW arch, calibration, volume....
+
+	- new typical FW verificaiton
+
+	- single cell Yoda follow up with SR
+		send email today, and schedule a meeting next week
+
+ 	- all AMC failure tracking and follow-up
+
+
+************************
+
+uxm startplatform
+uxm stopplatform
+
+10.168.0.61
+
+
++44 7906 101415 raymond
+
+
+dail in of webex
+Spain, Barcelona    0934923265
+Spain, Madrid    914142543
+
+10.82.25.227 pxa lav04
+
+ pxa lva02 10.82.27.179 A-N9030A-10561.png.is.keysight.com
+
+
+MY53310351 A.19.29
+
+pxa of lva03
+PXA IP(10.82.27.222) 11:01 AM 
+(username:local\instrument passowrd:measure4u)
+
+wdmfgup726
+PXA ip address: 10.82.27.18
+
+wdmfgup735 -> http://10.82.26.49/   K-N9030A-31249.png.is.keysight.com
+
+k-n9030a-31152
+PXA IP: 10.82.27.191 
+
+
+pxa 10.82.27.61 lva05
+pxa 10.82.27.202 lva03
+lva04 pxa ip: 10.82.25.227
+pna13 vnc to 10.82.27.82
+
+Malaga unit: 10.114.74.50 
+
+
+ wdmfgup722 PTS MXG ip: 10.82.25.204
+
+
+158268979
+
+Wb801931**
+
+INP1:DIQ:EQU:TAPs?
+
+
+You can pause the automatic fan control using the following command:
+BMC:FCONtrl 0
+
+After stopping automatic control it is possible to set the speed (in %) of each fan separately, using:
+BMC:FAN{1:4}:SPEed
+
+To restore the automatic behavior you can send  “BMC:FCONtrl 1” or restart the unit. 
+
+952639604
+
+
+
+
+
+Keysight4u!
+pL13best(amcwd)
+username:amcwd 12:58 PM 
+password:osk14779
+
+\\remus.png.is.keysight.com\gos_ssd\pub\gos\AUTOMATION\PROCESSDB\DUT_STATUS\E7515B
+
+SGH527SY6F.png.is.keysight.com
+SGH410Q4M6
+
+
+
+
+\\srsnas01.srs.is.keysight.com\prod\MIDRF3\AUTOMATION\PROCESSDB\DUT_STATUS
+
+
+C:\ProgramData\Keysight\E7515A\Platform\DCB
+location for RF driver
+
+
+user name: srctest 11:28 AM 
+password : vxyn2006
+
+
+u put in the 5x5 as E7515-60710 12:09 PM 
+put ur SN 12:09 PM 
+then submit 12:10 PM 
+next page prompt to enter T/N , require PO=NO , Log to Build It 12:10 PM av
+u can select my name 12:10 PM 
+then done
+
+
+Tx Det: limits
+Rx Tct: Lower measurment power some times
+jabil VNC passwod is vxyn2006
+
+c:\ProgramData\Keysight\E7515A\Platform\EPC\Logs\Keysight.PlatformServices.html
+10.114.73.191
+Amc1Malaga
+http://sharedoc.collaboration.is.keysight.com/sites/MCD_MBO_EXP1/SD/Platform%20Software%20USP/Master%20Registry/MasterRegistry.xlsm
+http://tfs-vision1.it.keysight.com:8080/tfs/Vision1/UXM/HW/_dashboards
+
+AMC_temp:
+http://ofweb.png.is.keysight.com/cgi-bin/org/ofauto/ambient_sensors/archived_data.pl?prod_line=SOURCES_PIMO&sensor=EXT%5FYellowstone%5F1
+
+
+
+\\romulus.png.is.keysight.com\Gondor\AMC.SSD
+
+tcpip0::10.168.0.61:hislipMSB2
+amc P1 chassis: 10.23.16.183
+
+\\mlgnas2.agp.is.keysight.com\v2\CCO-MLG\Builds\Platform\Andromeda
+mfgmlguser/AT4test0217
+"1111111111111111"
+"00111100"
+
+condesation
+air flow restriction
+
+
+adelante muchachos
+
+
+
+IM114396265
+
+
+nsdata.tcs@keysight.com
+AT4test1116
+
+
+10.23.16.204 9:12 AM 
+use vnc 9:12 AM 
+password :vxyn2006
+
+for Power Sensor no 9:31 AM 
+it is connected the E9304A
+
+
+ 
+https://sedeapl.dgt.gob.es:7443/WEB_Sanciones/jsp/sincertificado/identificacionPagador.jsf
+
+
+
+station calibration check test point
+
+
+
+
+
+
+
+
+KRUG,CALVIN (K-Sonoma,ex1)
+
+OF Mechnical
+
+B4 U 23DD
+
+tcpip0::10.168.0.80::7::socket
+
+tcpip0::10.168.0.80::hislipMNG::INSTR
+
+FIRM:REL:EXEC FLASH,1
+        <Name>DUT</Name>
+        <ComAddress>TCPIP0::10.168.0.80::7::SOCKET</ComAddress>
+        <ComType>LAN</ComType>
+		<PreferredSWInterface>Agilent.Etms.MeasurementDrivers.Interfaces.IANDROMEDADutManager</PreferredSWInterface>
+        <PreferredClassID>Agilent.Etms.DutDrivers.MBO.ANDROMEDADutManager</PreferredClassID>
+
+
+<Name>DUT</Name>
+        <ComAddress>tcpip0::10.168.0.80::7::socket</ComAddress>
+        <ComType>LAN</ComType>
+		<PreferredSWInterface>Agilent.Etms.MeasurementDrivers.Interfaces.IANDROMEDADutManager</PreferredSWInterface>
+        <PreferredClassID>Agilent.Etms.DutDrivers.MBO.ANDROMEDADutManager</PreferredClassID>
+
+
+Context.DUT.ProductName 7:58 PM 
+Context.DUT.ID
+
+
+3531 Hidden Pine Ct, Santa Rosa, CA 95404
+
+
+
+
+
+Consular Address
+Embajada de Estados Unidos 
+Visa Unit 
+Calle Serrano 75 
+28006, Madrid 
+Spain
+
+
+Mª Ángeles Roldan Cardioligist
+Tuesdays only
+Quiron has a small clinic near the bulls square 
+near the Malageta beach 
+that's closest to Malaga city center
+
+
+Malaga football stadium on Wednesday mornings
+Vithas Rincón Center Rosaleda 
+Wednesday mornings
+
+
+
+Quirón on Thursday mornings
+
+Calle Fernando Camino, 10, 29016 Málaga
+10am, 21-Nov
+
+
+
+timing:Dap801931*
+
+webex meeting:Ttm139108*
+Jira: Ji12345*
+Contact:
+FERNANDEZ,LUIS (K-Sonoma,ex1) <luis_fernandez@keysight.com>
